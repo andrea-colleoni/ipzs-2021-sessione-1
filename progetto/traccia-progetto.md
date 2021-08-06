@@ -13,7 +13,7 @@
   - Pubblicare i risultati degli unit test
   - Pulire l'area di lavoro
 
-**Opzionale**: Crerae un fork del progetto originale e lavorare sul fork
+**Opzionale**: Creare un fork del progetto originale e lavorare sul fork
 
 **Nel caso non si faccia il fork del progetto**: Durante il lavoro della giornata, di tanto in tanto verranno pushate delle nuove modifiche sul repository.
 
@@ -27,10 +27,10 @@
       - Copiarla in un path fisso sul container (ad es. __/usr/share/nginx/html__)
 - Fare la build dell'immagine e provare il container
 - Creare un file per Docker compose, che definisca il servizio __frontend__ usando l'immagine prodotta con la build del Dockerfile dell'app Angular
-- Verificare che il Docker compose avvii correttamente un contaoner con l'app
+- Verificare che il Docker compose avvii correttamente un container con l'app
 
 ## Fase 3
 - Automatizzare le operazioni Docker
 
 ## Fase 4
-- Creare una pipline di tutto il processo
+- Creare una pipeline di tutto il processo

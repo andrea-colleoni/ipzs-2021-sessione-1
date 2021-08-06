@@ -1,0 +1,14 @@
+version: "3.9"
+services: 
+    frontend:
+        build: ./container-frontend
+        ports: 
+            - 8000:80
+    db:
+        image: mysql
+        environment: 
+            MYSQL_ROOT_PASSWORD: passw0rd
+        ports:
+            - 3306:3306
+        volumes: 
+            - "C:\\Users\\andre\\Desktop\\Temp\\Corsi\\Avalon\\Zecca\\sessione-1\\progetto\\dati:/var/lib/mysql"
