@@ -4,6 +4,10 @@ services:
         build: ./container-frontend
         ports: 
             - 8000:80
+    backend:
+        build: ./container-backend
+        ports: 
+            - 8001:8080
     db:
         image: mysql
         environment: 
